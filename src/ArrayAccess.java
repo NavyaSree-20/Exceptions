@@ -18,6 +18,7 @@ public class ArrayAccess {
             if (index == -1) {
                 break;
             }
+            //using try catch
             try {
                 int value = numbers[index];
                 System.out.println("Element at index " + index + " is: " + value);
